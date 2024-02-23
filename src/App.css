@@ -1,0 +1,51 @@
+.function {
+  background-color: #fff;
+  box-shadow: 0rem 0rem 1rem black;
+  border-radius: 1.5rem;
+  height: 30rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+ margin: 4rem auto;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2rem;
+}
+h3,
+p {
+  text-align: center;
+}
+p {
+  color: rgb(133, 137, 139);
+}
+button {
+  border-radius: 2rem;
+  width: 10rem;
+  height: 2rem;
+  border: 0.1rem solid rgb(133, 137, 139);
+  cursor: pointer;
+  transition: all 0.3s ease-in 0.1s;
+}
+button:hover {
+  background-color: blueviolet;
+  transform: scale(1.2);
+}
+.b1 {
+  color: black;
+
+  background-color: transparent;
+}
+.b2 {
+  color: white;
+
+  background-color: rgb(34, 144, 247);
+}
+.div2 {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  gap: 3rem;
+}
